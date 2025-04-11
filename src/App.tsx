@@ -257,6 +257,7 @@ function App() {
     const { isLoading } = useAuth0();
 
     return (
+        <h1>update from github</h1>
         <Auth0Provider
             domain={import.meta.env.VITE_AUTH0_DOMAIN}
             clientId={import.meta.env.VITE_AUTH0_CLIENT_ID}
