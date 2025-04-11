@@ -1,0 +1,18 @@
+#dashCountDetails {
+    .table {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    iframe {
+        min-height: calc(100vh - 200px);
+        border: 0;
+    }
+
+}
