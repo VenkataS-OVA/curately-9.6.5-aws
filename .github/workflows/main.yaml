@@ -33,4 +33,8 @@ jobs:
           SOURCE_DIR: build/
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+<<<<<<< HEAD
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+=======
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+>>>>>>> baa42c0adf0ac5a6b9035f9ff109b5137d7f6fb6
